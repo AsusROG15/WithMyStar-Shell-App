@@ -1,12 +1,12 @@
-package com.termux.shared.android.resource;
+package org.withmystar.shell.shared.android.resource;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.termux.shared.data.DataUtils;
-import com.termux.shared.logger.Logger;
+import org.withmystar.shell.shared.data.DataUtils;
+import org.withmystar.shell.shared.logger.Logger;
 
 public class ResourceUtils {
 

@@ -1,4 +1,4 @@
-package com.termux.shared.activities;
+package org.withmystar.shell.shared.activities;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -24,11 +24,11 @@ import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import com.termux.shared.interact.ShareUtils;
-import com.termux.shared.logger.Logger;
-import com.termux.shared.R;
-import com.termux.shared.models.TextIOInfo;
-import com.termux.shared.view.KeyboardUtils;
+import org.withmystar.shell.shared.interact.ShareUtils;
+import org.withmystar.shell.shared.logger.Logger;
+import org.withmystar.shell.shared.R;
+import org.withmystar.shell.shared.models.TextIOInfo;
+import org.withmystar.shell.shared.view.KeyboardUtils;
 
 import org.jetbrains.annotations.NotNull;
 
@@ -39,7 +39,7 @@ import java.util.Locale;
  *
  * Add Following to `AndroidManifest.xml` to use in an app:
  *
- * {@code ` <activity android:name="com.termux.shared.activities.TextIOActivity" android:theme="@style/Theme.AppCompat.TermuxTextIOActivity" />` }
+ * {@code ` <activity android:name="org.withmystar.shell.shared.activities.TextIOActivity" android:theme="@style/Theme.AppCompat.TermuxTextIOActivity" />` }
  */
 public class TextIOActivity extends AppCompatActivity {
 

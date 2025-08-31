@@ -23,9 +23,9 @@
  * questions.
  */
 
-package com.termux.shared.file.filesystem;
+package org.withmystar.shell.shared.file.filesystem;
 
-import static com.termux.shared.file.filesystem.FilePermission.*;
+import static org.withmystar.shell.shared.file.filesystem.FilePermission.*;
 
 import java.util.*;
 

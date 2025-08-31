@@ -1,4 +1,4 @@
-package com.termux.app.models;
+package org.withmystar.shell.app.models;
 
 public enum UserAction {
 

@@ -1,4 +1,4 @@
-package com.termux.terminal;
+package org.withmystar.shell.terminal;
 
 import junit.framework.AssertionFailedError;
 import junit.framework.TestCase;

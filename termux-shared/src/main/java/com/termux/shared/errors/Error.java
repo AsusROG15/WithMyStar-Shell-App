@@ -1,11 +1,11 @@
-package com.termux.shared.errors;
+package org.withmystar.shell.shared.errors;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import com.termux.shared.logger.Logger;
-import com.termux.shared.markdown.MarkdownUtils;
+import org.withmystar.shell.shared.logger.Logger;
+import org.withmystar.shell.shared.markdown.MarkdownUtils;
 
 import java.io.Serializable;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package com.termux.app.terminal;
+package org.withmystar.shell.app.terminal;
 
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
@@ -17,32 +17,32 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.termux.R;
-import com.termux.app.TermuxActivity;
-import com.termux.shared.file.FileUtils;
-import com.termux.shared.interact.MessageDialogUtils;
-import com.termux.shared.interact.ShareUtils;
-import com.termux.shared.shell.ShellUtils;
-import com.termux.shared.termux.TermuxBootstrap;
-import com.termux.shared.termux.terminal.TermuxTerminalViewClientBase;
-import com.termux.shared.termux.extrakeys.SpecialButton;
-import com.termux.shared.android.AndroidUtils;
-import com.termux.shared.termux.TermuxConstants;
-import com.termux.shared.activities.ReportActivity;
-import com.termux.shared.models.ReportInfo;
-import com.termux.app.models.UserAction;
-import com.termux.app.terminal.io.KeyboardShortcut;
-import com.termux.shared.termux.settings.properties.TermuxPropertyConstants;
-import com.termux.shared.data.DataUtils;
-import com.termux.shared.logger.Logger;
-import com.termux.shared.markdown.MarkdownUtils;
-import com.termux.shared.termux.TermuxUtils;
-import com.termux.shared.termux.data.TermuxUrlUtils;
-import com.termux.shared.view.KeyboardUtils;
-import com.termux.shared.view.ViewUtils;
-import com.termux.terminal.KeyHandler;
-import com.termux.terminal.TerminalEmulator;
-import com.termux.terminal.TerminalSession;
+import org.withmystar.shell.R;
+import org.withmystar.shell.app.TermuxActivity;
+import org.withmystar.shell.shared.file.FileUtils;
+import org.withmystar.shell.shared.interact.MessageDialogUtils;
+import org.withmystar.shell.shared.interact.ShareUtils;
+import org.withmystar.shell.shared.shell.ShellUtils;
+import org.withmystar.shell.shared.termux.TermuxBootstrap;
+import org.withmystar.shell.shared.termux.terminal.TermuxTerminalViewClientBase;
+import org.withmystar.shell.shared.termux.extrakeys.SpecialButton;
+import org.withmystar.shell.shared.android.AndroidUtils;
+import org.withmystar.shell.shared.termux.TermuxConstants;
+import org.withmystar.shell.shared.activities.ReportActivity;
+import org.withmystar.shell.shared.models.ReportInfo;
+import org.withmystar.shell.app.models.UserAction;
+import org.withmystar.shell.app.terminal.io.KeyboardShortcut;
+import org.withmystar.shell.shared.termux.settings.properties.TermuxPropertyConstants;
+import org.withmystar.shell.shared.data.DataUtils;
+import org.withmystar.shell.shared.logger.Logger;
+import org.withmystar.shell.shared.markdown.MarkdownUtils;
+import org.withmystar.shell.shared.termux.TermuxUtils;
+import org.withmystar.shell.shared.termux.data.TermuxUrlUtils;
+import org.withmystar.shell.shared.view.KeyboardUtils;
+import org.withmystar.shell.shared.view.ViewUtils;
+import org.withmystar.shell.terminal.KeyHandler;
+import org.withmystar.shell.terminal.TerminalEmulator;
+import org.withmystar.shell.terminal.TerminalSession;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -152,7 +152,7 @@ public class TermuxTerminalViewClient extends TermuxTerminalViewClientBase {
     }
 
     /**
-     * Should be called when {@link com.termux.view.TerminalView#mEmulator} is set
+     * Should be called when {@link org.withmystar.shell.view.TerminalView#mEmulator} is set
      */
     @Override
     public void onEmulatorSet() {

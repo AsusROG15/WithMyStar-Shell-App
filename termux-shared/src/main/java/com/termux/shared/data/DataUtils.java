@@ -1,4 +1,4 @@
-package com.termux.shared.data;
+package org.withmystar.shell.shared.data;
 
 import android.os.Bundle;
 

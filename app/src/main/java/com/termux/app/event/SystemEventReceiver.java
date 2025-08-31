@@ -1,4 +1,4 @@
-package com.termux.app.event;
+package org.withmystar.shell.app.event;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -9,12 +9,12 @@ import android.net.Uri;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.termux.shared.data.IntentUtils;
-import com.termux.shared.logger.Logger;
-import com.termux.shared.termux.TermuxUtils;
-import com.termux.shared.termux.file.TermuxFileUtils;
-import com.termux.shared.termux.shell.command.environment.TermuxShellEnvironment;
-import com.termux.shared.termux.shell.TermuxShellManager;
+import org.withmystar.shell.shared.data.IntentUtils;
+import org.withmystar.shell.shared.logger.Logger;
+import org.withmystar.shell.shared.termux.TermuxUtils;
+import org.withmystar.shell.shared.termux.file.TermuxFileUtils;
+import org.withmystar.shell.shared.termux.shell.command.environment.TermuxShellEnvironment;
+import org.withmystar.shell.shared.termux.shell.TermuxShellManager;
 
 public class SystemEventReceiver extends BroadcastReceiver {
 

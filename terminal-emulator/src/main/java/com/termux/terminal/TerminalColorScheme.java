@@ -1,4 +1,4 @@
-package com.termux.terminal;
+package org.withmystar.shell.terminal;
 
 import java.util.Map;
 import java.util.Properties;

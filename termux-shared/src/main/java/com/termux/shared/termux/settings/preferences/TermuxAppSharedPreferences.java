@@ -1,4 +1,4 @@
-package com.termux.shared.termux.settings.preferences;
+package org.withmystar.shell.shared.termux.settings.preferences;
 
 import android.content.Context;
 import android.util.TypedValue;
@@ -6,14 +6,14 @@ import android.util.TypedValue;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.termux.shared.android.PackageUtils;
-import com.termux.shared.settings.preferences.AppSharedPreferences;
-import com.termux.shared.settings.preferences.SharedPreferenceUtils;
-import com.termux.shared.termux.TermuxConstants;
-import com.termux.shared.logger.Logger;
-import com.termux.shared.data.DataUtils;
-import com.termux.shared.termux.TermuxUtils;
-import com.termux.shared.termux.settings.preferences.TermuxPreferenceConstants.TERMUX_APP;
+import org.withmystar.shell.shared.android.PackageUtils;
+import org.withmystar.shell.shared.settings.preferences.AppSharedPreferences;
+import org.withmystar.shell.shared.settings.preferences.SharedPreferenceUtils;
+import org.withmystar.shell.shared.termux.TermuxConstants;
+import org.withmystar.shell.shared.logger.Logger;
+import org.withmystar.shell.shared.data.DataUtils;
+import org.withmystar.shell.shared.termux.TermuxUtils;
+import org.withmystar.shell.shared.termux.settings.preferences.TermuxPreferenceConstants.TERMUX_APP;
 
 public class TermuxAppSharedPreferences extends AppSharedPreferences {
 

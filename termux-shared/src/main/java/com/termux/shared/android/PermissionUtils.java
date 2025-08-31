@@ -1,4 +1,4 @@
-package com.termux.shared.android;
+package org.withmystar.shell.shared.android;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -20,12 +20,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
 import com.google.common.base.Joiner;
-import com.termux.shared.R;
-import com.termux.shared.file.FileUtils;
-import com.termux.shared.logger.Logger;
-import com.termux.shared.errors.Error;
-import com.termux.shared.errors.FunctionErrno;
-import com.termux.shared.activity.ActivityUtils;
+import org.withmystar.shell.shared.R;
+import org.withmystar.shell.shared.file.FileUtils;
+import org.withmystar.shell.shared.logger.Logger;
+import org.withmystar.shell.shared.errors.Error;
+import org.withmystar.shell.shared.errors.FunctionErrno;
+import org.withmystar.shell.shared.activity.ActivityUtils;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package com.termux.shared.shell.am;
+package org.withmystar.shell.shared.shell.am;
 
 import android.Manifest;
 import android.app.Application;
@@ -7,20 +7,20 @@ import android.content.Context;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.termux.am.Am;
-import com.termux.shared.R;
-import com.termux.shared.android.PackageUtils;
-import com.termux.shared.android.PermissionUtils;
-import com.termux.shared.errors.Error;
-import com.termux.shared.logger.Logger;
-import com.termux.shared.net.socket.local.ILocalSocketManager;
-import com.termux.shared.net.socket.local.LocalClientSocket;
-import com.termux.shared.net.socket.local.LocalServerSocket;
-import com.termux.shared.net.socket.local.LocalSocketManager;
-import com.termux.shared.net.socket.local.LocalSocketManagerClientBase;
-import com.termux.shared.net.socket.local.LocalSocketRunConfig;
-import com.termux.shared.shell.ArgumentTokenizer;
-import com.termux.shared.shell.command.ExecutionCommand;
+import org.withmystar.shell.am.Am;
+import org.withmystar.shell.shared.R;
+import org.withmystar.shell.shared.android.PackageUtils;
+import org.withmystar.shell.shared.android.PermissionUtils;
+import org.withmystar.shell.shared.errors.Error;
+import org.withmystar.shell.shared.logger.Logger;
+import org.withmystar.shell.shared.net.socket.local.ILocalSocketManager;
+import org.withmystar.shell.shared.net.socket.local.LocalClientSocket;
+import org.withmystar.shell.shared.net.socket.local.LocalServerSocket;
+import org.withmystar.shell.shared.net.socket.local.LocalSocketManager;
+import org.withmystar.shell.shared.net.socket.local.LocalSocketManagerClientBase;
+import org.withmystar.shell.shared.net.socket.local.LocalSocketRunConfig;
+import org.withmystar.shell.shared.shell.ArgumentTokenizer;
+import org.withmystar.shell.shared.shell.command.ExecutionCommand;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;

@@ -34,7 +34,7 @@
  *
  * END_COPYRIGHT_BLOCK*/
 
-package com.termux.shared.shell;
+package org.withmystar.shell.shared.shell;
 
 import java.util.List;
 import java.util.LinkedList;

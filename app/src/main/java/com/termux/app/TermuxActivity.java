@@ -1,4 +1,4 @@
-package com.termux.app;
+package org.withmystar.shell.app;
 
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
@@ -26,38 +26,38 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
-import com.termux.R;
-import com.termux.app.api.file.FileReceiverActivity;
-import com.termux.app.terminal.TermuxActivityRootView;
-import com.termux.app.terminal.TermuxTerminalSessionActivityClient;
-import com.termux.app.terminal.io.TermuxTerminalExtraKeys;
-import com.termux.shared.activities.ReportActivity;
-import com.termux.shared.activity.ActivityUtils;
-import com.termux.shared.activity.media.AppCompatActivityUtils;
-import com.termux.shared.data.IntentUtils;
-import com.termux.shared.android.PermissionUtils;
-import com.termux.shared.data.DataUtils;
-import com.termux.shared.termux.TermuxConstants;
-import com.termux.shared.termux.TermuxConstants.TERMUX_APP.TERMUX_ACTIVITY;
-import com.termux.app.activities.HelpActivity;
-import com.termux.app.activities.SettingsActivity;
-import com.termux.shared.termux.crash.TermuxCrashUtils;
-import com.termux.shared.termux.settings.preferences.TermuxAppSharedPreferences;
-import com.termux.app.terminal.TermuxSessionsListViewController;
-import com.termux.app.terminal.io.TerminalToolbarViewPager;
-import com.termux.app.terminal.TermuxTerminalViewClient;
-import com.termux.shared.termux.extrakeys.ExtraKeysView;
-import com.termux.shared.termux.interact.TextInputDialogUtils;
-import com.termux.shared.logger.Logger;
-import com.termux.shared.termux.TermuxUtils;
-import com.termux.shared.termux.settings.properties.TermuxAppSharedProperties;
-import com.termux.shared.termux.theme.TermuxThemeUtils;
-import com.termux.shared.theme.NightMode;
-import com.termux.shared.view.ViewUtils;
-import com.termux.terminal.TerminalSession;
-import com.termux.terminal.TerminalSessionClient;
-import com.termux.view.TerminalView;
-import com.termux.view.TerminalViewClient;
+import org.withmystar.shell.R;
+import org.withmystar.shell.app.api.file.FileReceiverActivity;
+import org.withmystar.shell.app.terminal.TermuxActivityRootView;
+import org.withmystar.shell.app.terminal.TermuxTerminalSessionActivityClient;
+import org.withmystar.shell.app.terminal.io.TermuxTerminalExtraKeys;
+import org.withmystar.shell.shared.activities.ReportActivity;
+import org.withmystar.shell.shared.activity.ActivityUtils;
+import org.withmystar.shell.shared.activity.media.AppCompatActivityUtils;
+import org.withmystar.shell.shared.data.IntentUtils;
+import org.withmystar.shell.shared.android.PermissionUtils;
+import org.withmystar.shell.shared.data.DataUtils;
+import org.withmystar.shell.shared.termux.TermuxConstants;
+import org.withmystar.shell.shared.termux.TermuxConstants.TERMUX_APP.TERMUX_ACTIVITY;
+import org.withmystar.shell.app.activities.HelpActivity;
+import org.withmystar.shell.app.activities.SettingsActivity;
+import org.withmystar.shell.shared.termux.crash.TermuxCrashUtils;
+import org.withmystar.shell.shared.termux.settings.preferences.TermuxAppSharedPreferences;
+import org.withmystar.shell.app.terminal.TermuxSessionsListViewController;
+import org.withmystar.shell.app.terminal.io.TerminalToolbarViewPager;
+import org.withmystar.shell.app.terminal.TermuxTerminalViewClient;
+import org.withmystar.shell.shared.termux.extrakeys.ExtraKeysView;
+import org.withmystar.shell.shared.termux.interact.TextInputDialogUtils;
+import org.withmystar.shell.shared.logger.Logger;
+import org.withmystar.shell.shared.termux.TermuxUtils;
+import org.withmystar.shell.shared.termux.settings.properties.TermuxAppSharedProperties;
+import org.withmystar.shell.shared.termux.theme.TermuxThemeUtils;
+import org.withmystar.shell.shared.theme.NightMode;
+import org.withmystar.shell.shared.view.ViewUtils;
+import org.withmystar.shell.terminal.TerminalSession;
+import org.withmystar.shell.terminal.TerminalSessionClient;
+import org.withmystar.shell.view.TerminalView;
+import org.withmystar.shell.view.TerminalViewClient;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -777,13 +777,13 @@ public final class TermuxActivity extends AppCompatActivity implements ServiceCo
                     TermuxActivity.this, requestCode, !isPermissionCallback)) {
                     if (isPermissionCallback)
                         Logger.logInfoAndShowToast(TermuxActivity.this, LOG_TAG,
-                            getString(com.termux.shared.R.string.msg_storage_permission_granted_on_request));
+                            getString(org.withmystar.shell.shared.R.string.msg_storage_permission_granted_on_request));
 
                     TermuxInstaller.setupStorageSymlinks(TermuxActivity.this);
                 } else {
                     if (isPermissionCallback)
                         Logger.logInfoAndShowToast(TermuxActivity.this, LOG_TAG,
-                            getString(com.termux.shared.R.string.msg_storage_permission_not_granted_on_request));
+                            getString(org.withmystar.shell.shared.R.string.msg_storage_permission_not_granted_on_request));
                 }
             }
         }.start();

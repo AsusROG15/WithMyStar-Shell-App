@@ -1,4 +1,4 @@
-package com.termux.shared.settings.properties;
+package org.withmystar.shell.shared.settings.properties;
 
 import android.content.Context;
 

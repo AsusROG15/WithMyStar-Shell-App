@@ -1,4 +1,4 @@
-package com.termux.app.terminal.io;
+package org.withmystar.shell.app.terminal.io;
 
 import android.annotation.SuppressLint;
 import android.view.Gravity;
@@ -7,16 +7,16 @@ import android.view.View;
 import androidx.annotation.NonNull;
 import androidx.drawerlayout.widget.DrawerLayout;
 
-import com.termux.app.TermuxActivity;
-import com.termux.app.terminal.TermuxTerminalSessionActivityClient;
-import com.termux.app.terminal.TermuxTerminalViewClient;
-import com.termux.shared.logger.Logger;
-import com.termux.shared.termux.extrakeys.ExtraKeysConstants;
-import com.termux.shared.termux.extrakeys.ExtraKeysInfo;
-import com.termux.shared.termux.settings.properties.TermuxPropertyConstants;
-import com.termux.shared.termux.settings.properties.TermuxSharedProperties;
-import com.termux.shared.termux.terminal.io.TerminalExtraKeys;
-import com.termux.view.TerminalView;
+import org.withmystar.shell.app.TermuxActivity;
+import org.withmystar.shell.app.terminal.TermuxTerminalSessionActivityClient;
+import org.withmystar.shell.app.terminal.TermuxTerminalViewClient;
+import org.withmystar.shell.shared.logger.Logger;
+import org.withmystar.shell.shared.termux.extrakeys.ExtraKeysConstants;
+import org.withmystar.shell.shared.termux.extrakeys.ExtraKeysInfo;
+import org.withmystar.shell.shared.termux.settings.properties.TermuxPropertyConstants;
+import org.withmystar.shell.shared.termux.settings.properties.TermuxSharedProperties;
+import org.withmystar.shell.shared.termux.terminal.io.TerminalExtraKeys;
+import org.withmystar.shell.view.TerminalView;
 
 import org.json.JSONException;
 

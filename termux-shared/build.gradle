@@ -28,7 +28,7 @@ android {
 
         implementation project(":terminal-view")
 
-        implementation "com.termux:termux-am-library:v2.0.0"
+        implementation "org.withmystar.shell:termux-am-library:v2.0.0"
     }
 
     defaultConfig {
@@ -81,7 +81,7 @@ afterEvaluate {
             // Creates a Maven publication called "release".
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.termux'
+                groupId = 'org.withmystar.shell'
                 artifactId = 'termux-shared'
                 version = '0.118.0'
                 artifact(sourceJar)

@@ -1,4 +1,4 @@
-package com.termux.shared.termux.data;
+package org.withmystar.shell.shared.termux.data;
 
 import java.util.LinkedHashSet;
 import java.util.regex.Matcher;

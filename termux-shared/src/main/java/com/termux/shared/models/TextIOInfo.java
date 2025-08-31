@@ -1,4 +1,4 @@
-package com.termux.shared.models;
+package org.withmystar.shell.shared.models;
 
 import android.graphics.Color;
 import android.graphics.Typeface;
@@ -6,8 +6,8 @@ import android.graphics.Typeface;
 import androidx.annotation.Keep;
 import androidx.annotation.NonNull;
 
-import com.termux.shared.activities.TextIOActivity;
-import com.termux.shared.data.DataUtils;
+import org.withmystar.shell.shared.activities.TextIOActivity;
+import org.withmystar.shell.shared.data.DataUtils;
 
 import java.io.Serializable;
 
@@ -16,7 +16,7 @@ import java.io.Serializable;
  * Max text limit is 95KB to prevent TransactionTooLargeException as per
  * {@link DataUtils#TRANSACTION_SIZE_LIMIT_IN_BYTES}. Larger size can be supported for in-app
  * transactions by storing {@link TextIOInfo} as a serialized object in a file like
- * {@link com.termux.shared.activities.ReportActivity} does.
+ * {@link org.withmystar.shell.shared.activities.ReportActivity} does.
  */
 public class TextIOInfo implements Serializable {
 

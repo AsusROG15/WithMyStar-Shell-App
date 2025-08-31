@@ -65,7 +65,7 @@ afterEvaluate {
             // Creates a Maven publication called "release".
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.termux'
+                groupId = 'org.withmystar.shell'
                 artifactId = 'terminal-emulator'
                 version = '0.118.0'
                 artifact(sourceJar)

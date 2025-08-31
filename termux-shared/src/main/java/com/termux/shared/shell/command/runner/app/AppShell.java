@@ -1,4 +1,4 @@
-package com.termux.shared.shell.command.runner.app;
+package org.withmystar.shell.shared.shell.command.runner.app;
 
 import android.content.Context;
 import android.system.ErrnoException;
@@ -9,17 +9,17 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.google.common.base.Joiner;
-import com.termux.shared.R;
-import com.termux.shared.data.DataUtils;
-import com.termux.shared.shell.command.ExecutionCommand;
-import com.termux.shared.shell.command.environment.ShellEnvironmentUtils;
-import com.termux.shared.shell.command.result.ResultData;
-import com.termux.shared.errors.Errno;
-import com.termux.shared.logger.Logger;
-import com.termux.shared.shell.command.ExecutionCommand.ExecutionState;
-import com.termux.shared.shell.command.environment.IShellEnvironment;
-import com.termux.shared.shell.ShellUtils;
-import com.termux.shared.shell.StreamGobbler;
+import org.withmystar.shell.shared.R;
+import org.withmystar.shell.shared.data.DataUtils;
+import org.withmystar.shell.shared.shell.command.ExecutionCommand;
+import org.withmystar.shell.shared.shell.command.environment.ShellEnvironmentUtils;
+import org.withmystar.shell.shared.shell.command.result.ResultData;
+import org.withmystar.shell.shared.errors.Errno;
+import org.withmystar.shell.shared.logger.Logger;
+import org.withmystar.shell.shared.shell.command.ExecutionCommand.ExecutionState;
+import org.withmystar.shell.shared.shell.command.environment.IShellEnvironment;
+import org.withmystar.shell.shared.shell.ShellUtils;
+import org.withmystar.shell.shared.shell.StreamGobbler;
 
 import java.io.DataOutputStream;
 import java.io.File;

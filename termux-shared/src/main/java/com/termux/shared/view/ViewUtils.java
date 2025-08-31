@@ -1,4 +1,4 @@
-package com.termux.shared.view;
+package org.withmystar.shell.shared.view;
 
 import android.app.Activity;
 import android.content.Context;
@@ -16,7 +16,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.termux.shared.logger.Logger;
+import org.withmystar.shell.shared.logger.Logger;
 
 public class ViewUtils {
 

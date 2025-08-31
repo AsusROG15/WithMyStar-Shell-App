@@ -1,4 +1,4 @@
-package com.termux.terminal;
+package org.withmystar.shell.terminal;
 
 import java.io.UnsupportedEncodingException;
 

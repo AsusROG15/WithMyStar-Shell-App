@@ -1,10 +1,10 @@
-package com.termux.shared.net.socket.local;
+package org.withmystar.shell.shared.net.socket.local;
 
 import androidx.annotation.NonNull;
 
-import com.termux.shared.file.FileUtils;
-import com.termux.shared.logger.Logger;
-import com.termux.shared.markdown.MarkdownUtils;
+import org.withmystar.shell.shared.file.FileUtils;
+import org.withmystar.shell.shared.logger.Logger;
+import org.withmystar.shell.shared.markdown.MarkdownUtils;
 
 import java.io.Serializable;
 import java.nio.charset.StandardCharsets;

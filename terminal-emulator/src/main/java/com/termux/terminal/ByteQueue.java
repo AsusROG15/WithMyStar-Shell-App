@@ -1,4 +1,4 @@
-package com.termux.terminal;
+package org.withmystar.shell.terminal;
 
 /** A circular byte buffer allowing one producer and one consumer thread. */
 final class ByteQueue {

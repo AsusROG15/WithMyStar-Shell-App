@@ -1,4 +1,4 @@
-package com.termux.app.activities;
+package org.withmystar.shell.app.activities;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -9,22 +9,22 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceFragmentCompat;
 
-import com.termux.R;
-import com.termux.shared.activities.ReportActivity;
-import com.termux.shared.file.FileUtils;
-import com.termux.shared.models.ReportInfo;
-import com.termux.app.models.UserAction;
-import com.termux.shared.interact.ShareUtils;
-import com.termux.shared.android.PackageUtils;
-import com.termux.shared.termux.settings.preferences.TermuxAPIAppSharedPreferences;
-import com.termux.shared.termux.settings.preferences.TermuxFloatAppSharedPreferences;
-import com.termux.shared.termux.settings.preferences.TermuxTaskerAppSharedPreferences;
-import com.termux.shared.termux.settings.preferences.TermuxWidgetAppSharedPreferences;
-import com.termux.shared.android.AndroidUtils;
-import com.termux.shared.termux.TermuxConstants;
-import com.termux.shared.termux.TermuxUtils;
-import com.termux.shared.activity.media.AppCompatActivityUtils;
-import com.termux.shared.theme.NightMode;
+import org.withmystar.shell.R;
+import org.withmystar.shell.shared.activities.ReportActivity;
+import org.withmystar.shell.shared.file.FileUtils;
+import org.withmystar.shell.shared.models.ReportInfo;
+import org.withmystar.shell.app.models.UserAction;
+import org.withmystar.shell.shared.interact.ShareUtils;
+import org.withmystar.shell.shared.android.PackageUtils;
+import org.withmystar.shell.shared.termux.settings.preferences.TermuxAPIAppSharedPreferences;
+import org.withmystar.shell.shared.termux.settings.preferences.TermuxFloatAppSharedPreferences;
+import org.withmystar.shell.shared.termux.settings.preferences.TermuxTaskerAppSharedPreferences;
+import org.withmystar.shell.shared.termux.settings.preferences.TermuxWidgetAppSharedPreferences;
+import org.withmystar.shell.shared.android.AndroidUtils;
+import org.withmystar.shell.shared.termux.TermuxConstants;
+import org.withmystar.shell.shared.termux.TermuxUtils;
+import org.withmystar.shell.shared.activity.media.AppCompatActivityUtils;
+import org.withmystar.shell.shared.theme.NightMode;
 
 public class SettingsActivity extends AppCompatActivity {
 
@@ -42,7 +42,7 @@ public class SettingsActivity extends AppCompatActivity {
                 .commit();
         }
 
-        AppCompatActivityUtils.setToolbar(this, com.termux.shared.R.id.toolbar);
+        AppCompatActivityUtils.setToolbar(this, org.withmystar.shell.shared.R.id.toolbar);
         AppCompatActivityUtils.setShowBackButtonInActionBar(this, true);
     }
 

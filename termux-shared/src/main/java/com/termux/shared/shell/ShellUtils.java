@@ -1,12 +1,12 @@
-package com.termux.shared.shell;
+package org.withmystar.shell.shared.shell;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.termux.shared.file.FileUtils;
-import com.termux.terminal.TerminalBuffer;
-import com.termux.terminal.TerminalEmulator;
-import com.termux.terminal.TerminalSession;
+import org.withmystar.shell.shared.file.FileUtils;
+import org.withmystar.shell.terminal.TerminalBuffer;
+import org.withmystar.shell.terminal.TerminalEmulator;
+import org.withmystar.shell.terminal.TerminalSession;
 
 import java.lang.reflect.Field;
 

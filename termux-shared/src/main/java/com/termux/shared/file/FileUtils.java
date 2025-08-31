@@ -1,4 +1,4 @@
-package com.termux.shared.file;
+package org.withmystar.shell.shared.file;
 
 import android.os.Build;
 import android.system.Os;
@@ -7,13 +7,13 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.google.common.io.RecursiveDeleteOption;
-import com.termux.shared.file.filesystem.FileType;
-import com.termux.shared.file.filesystem.FileTypes;
-import com.termux.shared.data.DataUtils;
-import com.termux.shared.logger.Logger;
-import com.termux.shared.errors.Errno;
-import com.termux.shared.errors.Error;
-import com.termux.shared.errors.FunctionErrno;
+import org.withmystar.shell.shared.file.filesystem.FileType;
+import org.withmystar.shell.shared.file.filesystem.FileTypes;
+import org.withmystar.shell.shared.data.DataUtils;
+import org.withmystar.shell.shared.logger.Logger;
+import org.withmystar.shell.shared.errors.Errno;
+import org.withmystar.shell.shared.errors.Error;
+import org.withmystar.shell.shared.errors.FunctionErrno;
 
 import org.apache.commons.io.filefilter.AgeFileFilter;
 import org.apache.commons.io.filefilter.IOFileFilter;

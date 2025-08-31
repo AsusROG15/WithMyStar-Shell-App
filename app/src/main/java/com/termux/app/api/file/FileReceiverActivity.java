@@ -1,4 +1,4 @@
-package com.termux.app.api.file;
+package org.withmystar.shell.app.api.file;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,21 +10,21 @@ import android.util.Patterns;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.termux.R;
-import com.termux.shared.android.PackageUtils;
-import com.termux.shared.data.DataUtils;
-import com.termux.shared.data.IntentUtils;
-import com.termux.shared.net.uri.UriUtils;
-import com.termux.shared.interact.MessageDialogUtils;
-import com.termux.shared.net.uri.UriScheme;
-import com.termux.shared.termux.interact.TextInputDialogUtils;
-import com.termux.shared.termux.TermuxConstants;
-import com.termux.shared.termux.TermuxConstants.TERMUX_APP;
-import com.termux.shared.termux.TermuxConstants.TERMUX_APP.TERMUX_SERVICE;
-import com.termux.app.TermuxService;
-import com.termux.shared.logger.Logger;
-import com.termux.shared.termux.settings.properties.TermuxAppSharedProperties;
-import com.termux.shared.termux.settings.properties.TermuxPropertyConstants;
+import org.withmystar.shell.R;
+import org.withmystar.shell.shared.android.PackageUtils;
+import org.withmystar.shell.shared.data.DataUtils;
+import org.withmystar.shell.shared.data.IntentUtils;
+import org.withmystar.shell.shared.net.uri.UriUtils;
+import org.withmystar.shell.shared.interact.MessageDialogUtils;
+import org.withmystar.shell.shared.net.uri.UriScheme;
+import org.withmystar.shell.shared.termux.interact.TextInputDialogUtils;
+import org.withmystar.shell.shared.termux.TermuxConstants;
+import org.withmystar.shell.shared.termux.TermuxConstants.TERMUX_APP;
+import org.withmystar.shell.shared.termux.TermuxConstants.TERMUX_APP.TERMUX_SERVICE;
+import org.withmystar.shell.app.TermuxService;
+import org.withmystar.shell.shared.logger.Logger;
+import org.withmystar.shell.shared.termux.settings.properties.TermuxAppSharedProperties;
+import org.withmystar.shell.shared.termux.settings.properties.TermuxPropertyConstants;
 
 import java.io.ByteArrayInputStream;
 import java.io.File;

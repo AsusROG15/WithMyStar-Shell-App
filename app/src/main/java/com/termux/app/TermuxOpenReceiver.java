@@ -1,4 +1,4 @@
-package com.termux.app;
+package org.withmystar.shell.app;
 
 import android.content.ActivityNotFoundException;
 import android.content.BroadcastReceiver;
@@ -13,13 +13,13 @@ import android.os.ParcelFileDescriptor;
 import android.provider.MediaStore;
 import android.webkit.MimeTypeMap;
 
-import com.termux.shared.termux.plugins.TermuxPluginUtils;
-import com.termux.shared.data.DataUtils;
-import com.termux.shared.data.IntentUtils;
-import com.termux.shared.net.uri.UriUtils;
-import com.termux.shared.logger.Logger;
-import com.termux.shared.net.uri.UriScheme;
-import com.termux.shared.termux.TermuxConstants;
+import org.withmystar.shell.shared.termux.plugins.TermuxPluginUtils;
+import org.withmystar.shell.shared.data.DataUtils;
+import org.withmystar.shell.shared.data.IntentUtils;
+import org.withmystar.shell.shared.net.uri.UriUtils;
+import org.withmystar.shell.shared.logger.Logger;
+import org.withmystar.shell.shared.net.uri.UriScheme;
+import org.withmystar.shell.shared.termux.TermuxConstants;
 
 import java.io.File;
 import java.io.FileNotFoundException;

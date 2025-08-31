@@ -1,4 +1,4 @@
-package com.termux.shared.termux.terminal.io;
+package org.withmystar.shell.shared.termux.terminal.io;
 
 import android.content.Context;
 import android.os.Build;
@@ -8,7 +8,7 @@ import android.os.SystemClock;
 import android.os.VibrationEffect;
 import android.os.Vibrator;
 
-import com.termux.shared.logger.Logger;
+import org.withmystar.shell.shared.logger.Logger;
 
 public class BellHandler {
     private static BellHandler instance = null;

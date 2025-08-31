@@ -1,4 +1,4 @@
-package com.termux.shared.termux.interact;
+package org.withmystar.shell.shared.termux.interact;
 
 import android.app.Activity;
 import android.app.AlertDialog;

@@ -1,4 +1,4 @@
-package com.termux.shared.android;
+package org.withmystar.shell.shared.android;
 
 import android.app.ActivityManager;
 import android.content.Context;
@@ -6,7 +6,7 @@ import android.content.Context;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.termux.shared.logger.Logger;
+import org.withmystar.shell.shared.logger.Logger;
 
 import java.util.List;
 

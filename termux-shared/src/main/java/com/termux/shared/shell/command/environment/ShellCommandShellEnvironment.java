@@ -1,10 +1,10 @@
-package com.termux.shared.shell.command.environment;
+package org.withmystar.shell.shared.shell.command.environment;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import com.termux.shared.shell.command.ExecutionCommand;
+import org.withmystar.shell.shared.shell.command.ExecutionCommand;
 
 import java.util.HashMap;
 

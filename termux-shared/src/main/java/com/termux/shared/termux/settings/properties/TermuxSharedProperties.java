@@ -1,14 +1,14 @@
-package com.termux.shared.termux.settings.properties;
+package org.withmystar.shell.shared.termux.settings.properties;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import com.termux.shared.logger.Logger;
-import com.termux.shared.data.DataUtils;
-import com.termux.shared.settings.properties.SharedProperties;
-import com.termux.shared.settings.properties.SharedPropertiesParser;
-import com.termux.shared.termux.TermuxConstants;
+import org.withmystar.shell.shared.logger.Logger;
+import org.withmystar.shell.shared.data.DataUtils;
+import org.withmystar.shell.shared.settings.properties.SharedProperties;
+import org.withmystar.shell.shared.settings.properties.SharedPropertiesParser;
+import org.withmystar.shell.shared.termux.TermuxConstants;
 
 import java.io.File;
 import java.util.HashMap;

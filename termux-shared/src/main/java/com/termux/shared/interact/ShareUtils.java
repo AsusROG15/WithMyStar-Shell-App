@@ -1,4 +1,4 @@
-package com.termux.shared.interact;
+package org.withmystar.shell.shared.interact;
 
 import android.Manifest;
 import android.app.Activity;
@@ -13,13 +13,13 @@ import android.os.Environment;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.termux.shared.R;
-import com.termux.shared.data.DataUtils;
-import com.termux.shared.data.IntentUtils;
-import com.termux.shared.file.FileUtils;
-import com.termux.shared.logger.Logger;
-import com.termux.shared.errors.Error;
-import com.termux.shared.android.PermissionUtils;
+import org.withmystar.shell.shared.R;
+import org.withmystar.shell.shared.data.DataUtils;
+import org.withmystar.shell.shared.data.IntentUtils;
+import org.withmystar.shell.shared.file.FileUtils;
+import org.withmystar.shell.shared.logger.Logger;
+import org.withmystar.shell.shared.errors.Error;
+import org.withmystar.shell.shared.android.PermissionUtils;
 
 import java.nio.charset.Charset;
 

@@ -1,4 +1,4 @@
-package com.termux.app;
+package org.withmystar.shell.app;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -9,22 +9,22 @@ import android.os.Binder;
 import android.os.Build;
 import android.os.IBinder;
 
-import com.termux.R;
-import com.termux.shared.data.DataUtils;
-import com.termux.shared.data.IntentUtils;
-import com.termux.shared.termux.plugins.TermuxPluginUtils;
-import com.termux.shared.termux.file.TermuxFileUtils;
-import com.termux.shared.file.filesystem.FileType;
-import com.termux.shared.errors.Errno;
-import com.termux.shared.errors.Error;
-import com.termux.shared.termux.TermuxConstants;
-import com.termux.shared.termux.TermuxConstants.TERMUX_APP.RUN_COMMAND_SERVICE;
-import com.termux.shared.termux.TermuxConstants.TERMUX_APP.TERMUX_SERVICE;
-import com.termux.shared.file.FileUtils;
-import com.termux.shared.logger.Logger;
-import com.termux.shared.notification.NotificationUtils;
-import com.termux.shared.shell.command.ExecutionCommand;
-import com.termux.shared.shell.command.ExecutionCommand.Runner;
+import org.withmystar.shell.R;
+import org.withmystar.shell.shared.data.DataUtils;
+import org.withmystar.shell.shared.data.IntentUtils;
+import org.withmystar.shell.shared.termux.plugins.TermuxPluginUtils;
+import org.withmystar.shell.shared.termux.file.TermuxFileUtils;
+import org.withmystar.shell.shared.file.filesystem.FileType;
+import org.withmystar.shell.shared.errors.Errno;
+import org.withmystar.shell.shared.errors.Error;
+import org.withmystar.shell.shared.termux.TermuxConstants;
+import org.withmystar.shell.shared.termux.TermuxConstants.TERMUX_APP.RUN_COMMAND_SERVICE;
+import org.withmystar.shell.shared.termux.TermuxConstants.TERMUX_APP.TERMUX_SERVICE;
+import org.withmystar.shell.shared.file.FileUtils;
+import org.withmystar.shell.shared.logger.Logger;
+import org.withmystar.shell.shared.notification.NotificationUtils;
+import org.withmystar.shell.shared.shell.command.ExecutionCommand;
+import org.withmystar.shell.shared.shell.command.ExecutionCommand.Runner;
 
 /**
  * A service that receives {@link RUN_COMMAND_SERVICE#ACTION_RUN_COMMAND} intent from third party apps and

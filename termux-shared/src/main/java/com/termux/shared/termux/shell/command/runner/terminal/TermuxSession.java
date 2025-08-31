@@ -1,4 +1,4 @@
-package com.termux.shared.termux.shell.command.runner.terminal;
+package org.withmystar.shell.shared.termux.shell.command.runner.terminal;
 
 import android.content.Context;
 import android.system.OsConstants;
@@ -7,17 +7,17 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.google.common.base.Joiner;
-import com.termux.shared.R;
-import com.termux.shared.shell.command.ExecutionCommand;
-import com.termux.shared.shell.command.environment.ShellEnvironmentUtils;
-import com.termux.shared.shell.command.environment.UnixShellEnvironment;
-import com.termux.shared.shell.command.result.ResultData;
-import com.termux.shared.errors.Errno;
-import com.termux.shared.logger.Logger;
-import com.termux.shared.shell.command.environment.IShellEnvironment;
-import com.termux.shared.shell.ShellUtils;
-import com.termux.terminal.TerminalSession;
-import com.termux.terminal.TerminalSessionClient;
+import org.withmystar.shell.shared.R;
+import org.withmystar.shell.shared.shell.command.ExecutionCommand;
+import org.withmystar.shell.shared.shell.command.environment.ShellEnvironmentUtils;
+import org.withmystar.shell.shared.shell.command.environment.UnixShellEnvironment;
+import org.withmystar.shell.shared.shell.command.result.ResultData;
+import org.withmystar.shell.shared.errors.Errno;
+import org.withmystar.shell.shared.logger.Logger;
+import org.withmystar.shell.shared.shell.command.environment.IShellEnvironment;
+import org.withmystar.shell.shared.shell.ShellUtils;
+import org.withmystar.shell.terminal.TerminalSession;
+import org.withmystar.shell.terminal.TerminalSessionClient;
 
 import java.io.File;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package com.termux.shared;
+package org.withmystar.shell.shared;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.termux.shared.test", appContext.getPackageName());
+        assertEquals("org.withmystar.shell.shared.test", appContext.getPackageName());
     }
 }

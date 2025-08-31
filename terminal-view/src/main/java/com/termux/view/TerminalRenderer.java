@@ -1,15 +1,15 @@
-package com.termux.view;
+package org.withmystar.shell.view;
 
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.PorterDuff;
 import android.graphics.Typeface;
 
-import com.termux.terminal.TerminalBuffer;
-import com.termux.terminal.TerminalEmulator;
-import com.termux.terminal.TerminalRow;
-import com.termux.terminal.TextStyle;
-import com.termux.terminal.WcWidth;
+import org.withmystar.shell.terminal.TerminalBuffer;
+import org.withmystar.shell.terminal.TerminalEmulator;
+import org.withmystar.shell.terminal.TerminalRow;
+import org.withmystar.shell.terminal.TextStyle;
+import org.withmystar.shell.terminal.WcWidth;
 
 /**
  * Renderer of a {@link TerminalEmulator} into a {@link Canvas}.

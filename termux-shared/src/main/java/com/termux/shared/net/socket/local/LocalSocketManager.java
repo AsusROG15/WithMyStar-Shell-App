@@ -1,13 +1,13 @@
-package com.termux.shared.net.socket.local;
+package org.withmystar.shell.shared.net.socket.local;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.termux.shared.errors.Error;
-import com.termux.shared.jni.models.JniResult;
-import com.termux.shared.logger.Logger;
+import org.withmystar.shell.shared.errors.Error;
+import org.withmystar.shell.shared.jni.models.JniResult;
+import org.withmystar.shell.shared.logger.Logger;
 
 /**
  * Manager for an AF_UNIX/SOCK_STREAM local server.
