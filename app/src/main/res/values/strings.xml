@@ -2,13 +2,13 @@
 
 <!DOCTYPE resources [
     <!ENTITY TERMUX_PACKAGE_NAME "org.withmystar.shell">
-    <!ENTITY TERMUX_APP_NAME "Termux">
-    <!ENTITY TERMUX_API_APP_NAME "Termux:API">
-    <!ENTITY TERMUX_BOOT_APP_NAME "Termux:Boot">
-    <!ENTITY TERMUX_FLOAT_APP_NAME "Termux:Float">
-    <!ENTITY TERMUX_STYLING_APP_NAME "Termux:Styling">
-    <!ENTITY TERMUX_TASKER_APP_NAME "Termux:Tasker">
-    <!ENTITY TERMUX_WIDGET_APP_NAME "Termux:Widget">
+    <!ENTITY TERMUX_APP_NAME "WithMyStar Shell">
+    <!ENTITY TERMUX_API_APP_NAME "WithMyStar Shell:API">
+    <!ENTITY TERMUX_BOOT_APP_NAME "WithMyStar Shell:Boot">
+    <!ENTITY TERMUX_FLOAT_APP_NAME "WithMyStar Shell:Float">
+    <!ENTITY TERMUX_STYLING_APP_NAME "WithMyStar Shell:Styling">
+    <!ENTITY TERMUX_TASKER_APP_NAME "WithMyStar Shell:Tasker">
+    <!ENTITY TERMUX_WIDGET_APP_NAME "WithMyStar Shell:Widget">
     ]>
 
 <resources>
@@ -18,14 +18,14 @@
 
 
 
-    <!-- Termux RUN_COMMAND permission -->
+    <!-- WithMyStar Shell RUN_COMMAND permission -->
     <string name="permission_run_command_label">Run commands in &TERMUX_APP_NAME; environment</string>
     <string name="permission_run_command_description">execute arbitrary commands within &TERMUX_APP_NAME;
         environment and access files</string>
 
 
 
-    <!-- Termux Bootstrap Packages Installation -->
+    <!-- WithMyStar Shell Bootstrap Packages Installation -->
     <string name="bootstrap_installer_body">Installing bootstrap packages…</string>
     <string name="bootstrap_error_title">Unable to install bootstrap</string>
     <string name="bootstrap_error_body">&TERMUX_APP_NAME; was unable to install the bootstrap packages.</string>
@@ -96,25 +96,25 @@
 
 
 
-    <!-- Termux Notifications -->
+    <!-- WithMyStar Shell Notifications -->
     <string name="notification_action_exit">Exit</string>
     <string name="notification_action_wake_lock">Acquire wakelock</string>
     <string name="notification_action_wake_unlock">Release wakelock</string>
 
 
 
-    <!-- TermuxService -->
+    <!-- WithMyStar ShellService -->
     <string name="error_display_over_other_apps_permission_not_granted_to_start_terminal">&TERMUX_APP_NAME; requires
         \"Display over other apps\" permission to start terminal sessions from background on Android >= 10.
         Grants it from Settings -> Apps -> &TERMUX_APP_NAME; -> Advanced</string>
-    <string name="error_termux_service_invalid_execution_command_runner">Invalid execution command runner to TermuxService: `%1$s`</string>
-    <string name="error_termux_service_unsupported_execution_command_runner">Unsupported execution command runner to TermuxService: `%1$s`</string>
-    <string name="error_termux_service_unsupported_execution_command_shell_create_mode">Unsupported execution command shell create mode to TermuxService: `%1$s`</string>
+    <string name="error_termux_service_invalid_execution_command_runner">Invalid execution command runner to WithMyStar ShellService: `%1$s`</string>
+    <string name="error_termux_service_unsupported_execution_command_runner">Unsupported execution command runner to WithMyStar ShellService: `%1$s`</string>
+    <string name="error_termux_service_unsupported_execution_command_shell_create_mode">Unsupported execution command shell create mode to WithMyStar ShellService: `%1$s`</string>
     <string name="error_termux_service_execution_command_shell_name_unset">Shell name not set but `%1$s` shell create mode passed</string>
 
 
 
-    <!-- Termux RunCommandService -->
+    <!-- WithMyStar Shell RunCommandService -->
     <string name="error_run_command_service_invalid_intent_action">Invalid intent action to RunCommandService: `%1$s`</string>
     <string name="error_run_command_service_invalid_execution_command_runner">Invalid execution command runner to RunCommandService: `%1$s`</string>
     <string name="error_run_command_service_mandatory_extra_missing">Mandatory extra missing to RunCommandService: \"%1$s\"</string>
@@ -122,7 +122,7 @@
 
 
 
-    <!-- Termux File Receiver -->
+    <!-- WithMyStar Shell File Receiver -->
     <string name="title_file_received">Save file in ~/downloads/</string>
     <string name="action_file_received_edit">Edit</string>
     <string name="action_file_received_open_directory">Open directory</string>
@@ -130,15 +130,15 @@
 
 
     <!-- Miscellaneous -->
-    <string name="error_termux_service_start_failed_general">Failed to start TermuxService. Check logcat for exception message.</string>
-    <string name="error_termux_service_start_failed_bg">Failed to start TermuxService while app is in background due to android bg restrictions.</string>
+    <string name="error_termux_service_start_failed_general">Failed to start WithMyStar ShellService. Check logcat for exception message.</string>
+    <string name="error_termux_service_start_failed_bg">Failed to start WithMyStar ShellService while app is in background due to android bg restrictions.</string>
 
 
 
-    <!-- Termux Settings -->
+    <!-- WithMyStar Shell Settings -->
     <string name="title_activity_termux_settings">&TERMUX_APP_NAME; Settings</string>
 
-    <!-- Termux App Preferences -->
+    <!-- WithMyStar Shell App Preferences -->
     <string name="termux_preferences_title">&TERMUX_APP_NAME;</string>
     <string name="termux_preferences_summary">Preferences for &TERMUX_APP_NAME; app</string>
 
@@ -205,25 +205,25 @@
 
 
 
-    <!-- Termux:API App Preferences -->
+    <!-- WithMyStar Shell:API App Preferences -->
     <string name="termux_api_preferences_title">&TERMUX_API_APP_NAME;</string>
     <string name="termux_api_preferences_summary">Preferences for &TERMUX_API_APP_NAME; app</string>
 
 
 
-    <!-- Termux:Float App Preferences -->
+    <!-- WithMyStar Shell:Float App Preferences -->
     <string name="termux_float_preferences_title">&TERMUX_FLOAT_APP_NAME;</string>
     <string name="termux_float_preferences_summary">Preferences for &TERMUX_FLOAT_APP_NAME; app</string>
 
 
 
-    <!-- Termux:Tasker App Preferences -->
+    <!-- WithMyStar Shell:Tasker App Preferences -->
     <string name="termux_tasker_preferences_title">&TERMUX_TASKER_APP_NAME;</string>
     <string name="termux_tasker_preferences_summary">Preferences for &TERMUX_TASKER_APP_NAME; app</string>
 
 
 
-    <!-- Termux:Widget App Preferences -->
+    <!-- WithMyStar Shell:Widget App Preferences -->
     <string name="termux_widget_preferences_title">&TERMUX_WIDGET_APP_NAME;</string>
     <string name="termux_widget_preferences_summary">Preferences for &TERMUX_WIDGET_APP_NAME; app</string>
 
